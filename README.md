@@ -1,4 +1,5 @@
-<img width="651" height="118" alt="{978A799E-FA5F-4B36-A524-0B59BF30645C}" src="https://github.com/user-attachments/assets/73bc11be-9f13-4bc1-891b-4b6d05fa600a" />
+<img width="660" height="72" alt="{1F3B8538-C7FD-4A12-B9BA-EC828EE370DB}" src="https://github.com/user-attachments/assets/36556f3a-4b7f-4e64-83ee-189ad5b7e154" />
+
 
 ReduceCord opens https://discord.com/app inside a desktop window and does not run the official Discord desktop app.
 
