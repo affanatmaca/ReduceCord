@@ -1,31 +1,26 @@
 <img width="639" height="68" alt="Untitled" src="https://github.com/user-attachments/assets/5a08c048-a819-4fd7-bec9-1a893852e453" />
 
-ReduceCord is a lightweight desktop wrapper for Discord, built with Tauri.
+ReduceCord opens https://discord.com/app inside a desktop window and does not run the official Discord desktop app.
 
-It opens discord.com/app inside a desktop window and does not run the official Discord desktop app.
+## Requirements:
 
-Requirements:
+Rust - https://rust-lang.org/tools/install/
+Node.js - https://nodejs.org/en/download
+WebView2 Runtime (Windows) - https://developer.microsoft.com/en-us/microsoft-edge/webview2/
 
-Rust
-Node.js
-WebView2 Runtime (Windows)
-Install: npm install
+## Setup
+Run '''npm install''' for installing packages.
 
-Run in development: npm run dev:normal npm run dev:lite npm run dev:no-gpu
+Starting ReduceCord without build : npm run dev:normal , npm run dev:lite , npm run dev:no-gpu
+Building ReduceCord : npm run build:normal , npm run build:lite , npm run build:no-gpu
 
-Build: npm run build:normal npm run build:lite npm run build:no-gpu
+## Build outputs:
 
-Build outputs are created per profile:
+dist/normal , dist/lite , dist/no-gpu
+Output contains : discord-web.exe (portable) , Discord Web_0.1.0_x64-setup.exe (installer)
 
-dist/normal
-dist/lite
-dist/no-gpu
-Each profile folder contains:
+## Profiles:
 
-discord-web.exe (portable)
-Discord Web_0.1.0_x64-setup.exe (installer)
-Profiles:
-
-normal: balanced default
-lite: lower background resource usage
-no-gpu: lite mode with GPU disabled (may increase CPU on some systems)
+normal: Balanced Profile.
+lite: Lower Background Usage.
+no-gpu: Litemode with disabled gpu isage (May use more cpu with some systems).
