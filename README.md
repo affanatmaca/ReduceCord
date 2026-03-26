@@ -1,3 +1,5 @@
+<img width="639" height="68" alt="Untitled" src="https://github.com/user-attachments/assets/5a08c048-a819-4fd7-bec9-1a893852e453" />
+
 ReduceCord is a lightweight desktop wrapper for Discord, built with Tauri.
 
 It opens discord.com/app inside a desktop window and does not run the official Discord desktop app.
