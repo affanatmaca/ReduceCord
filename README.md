@@ -1,4 +1,4 @@
-Discord Web is a lightweight desktop wrapper for Discord Web, built with Tauri.
+ReduceCord is a lightweight desktop wrapper for Discord, built with Tauri.
 
 It opens discord.com/app inside a desktop window and does not run the official Discord desktop app.
 
