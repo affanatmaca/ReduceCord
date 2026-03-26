@@ -1,8 +1,9 @@
-<img width="639" height="68" alt="Untitled" src="https://github.com/user-attachments/assets/5a08c048-a819-4fd7-bec9-1a893852e453" />
+<img width="651" height="118" alt="{978A799E-FA5F-4B36-A524-0B59BF30645C}" src="https://github.com/user-attachments/assets/73bc11be-9f13-4bc1-891b-4b6d05fa600a" />
 
 ReduceCord opens https://discord.com/app inside a desktop window and does not run the official Discord desktop app.
 
 ## Requirements:
+
 
 Rust - https://rust-lang.org/tools/install/
 Node.js - https://nodejs.org/en/download
