@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Discord Web",
+  "version": "0.1.0",
+  "identifier": "com.discordweb.tauri",
+  "build": {
+    "beforeDevCommand": null,
+    "devUrl": "https://discord.com/app",
+    "beforeBuildCommand": null,
+    "frontendDist": "https://discord.com/app"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "main",
+        "title": "Discord (Web)",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 400,
+        "minHeight": 300,
+        "center": true,
+        "url": "https://discord.com/app",
+        "devtools": false,
+        "additionalBrowserArgs": "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection,MediaRouter,InterestFeedContentSuggestions,OptimizationHints,HeavyAdPrivacyMitigations,PermissionPredictions,CalculateNativeWinOcclusion --disable-component-update --disable-breakpad --disk-cache-size=33554432 --disable-background-networking --disable-renderer-backgrounding --disable-background-timer-throttling --process-per-site"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "publisher": "Discord Web",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installMode": "perMachine",
+        "installerIcon": "icons/icon.ico",
+        "installerHooks": "windows/installer-hooks.nsh"
+      }
+    }
+  }
+}
